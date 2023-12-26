@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Carol",
+        "phone": "47-99224-8852",
+        "permissions": [
+            "basic",
+            "intermediate",
+            "administrator"
+        ],
+        "admin": true,
+        "plan": {
+            "name": "basic",
+            "price": "R$20,00"
+        }
+    },
+    {
+        "name": "Douglas",
+        "phone": "47-99224-8852",
+        "permissions": [
+            "basic",
+            "intermediate"
+        ],
+        "admin": false,
+        "plan": {
+            "name": "pro",
+            "price": "R$40,00"
+        }
+    }
+]

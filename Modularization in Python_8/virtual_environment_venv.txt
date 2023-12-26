@@ -1,0 +1,23 @@
+If you are on windows use Set-ExecutionPolicy Unrestricted -Force as administrator
+
+Use ls on terminal to check the path you are
+
+And then navigate to a directory using cd to choose where to create the virtual environment
+
+Python Virtual Environment Creation Tutorial
+
+Step 1: Open the terminal You can do this by searching for “terminal” in the Start menu (Windows) or in the Launchpad (macOS).
+
+Step 2: Navigate to the directory where you want to create the virtual environment You can do this using the ‘cd’ command. For example: cd /Users/joaomelo/Desktop/Teste
+
+Step 3: Create the virtual environment You can do this using Python’s ‘venv’ module. For example: python3 -m venv teste1joao This will create a virtual environment named ‘teste1joao’ in the current directory.
+
+Step 4: Activate the virtual environment On Windows, you can do this with the following command: teste1joao\Scripts\activate On macOS and Linux, you can do this with the following command: source teste1joao/bin/activate This will activate the virtual environment. You can check this because the name of the virtual environment will appear at the start of the terminal line.
+
+Step 5: Check the installed packages in the virtual environment You can do this using the ‘pip list’ or ‘pip3 list’ command.
+
+Step 6: Update pip in the virtual environment You can do this using the following command: python -m pip install --upgrade pip
+
+Step 7: Generate a requirements.txt file You can do this using the ‘pip freeze’ command: pip freeze > requirements.txt This will create a requirements.txt file in the current directory, listing all the Python libraries installed in the virtual environment and their respective versions.
+
+Step 8: When finished, deactivate the virtual environment You can do this using the ‘deactivate’ command. This will deactivate the virtual environment and you will return to the global Python environment.
