@@ -1,0 +1,165 @@
+import re
+
+# Numbers
+dev123com
+developer 123
+dev = 123
+dev = 1234
+dev = 1337
+dev = 9000
+
+##############################
+
+# Dot
+asd.
+112.
+1@#.
+12.234.
+
+..\....\....
+18.335.346
+23.235.756
+56.863.623
+
+##############################
+
+# Character search
+# Now I want all words with a total of 3 characters, starting with either o or a, the middle character doesn't matter, and ending with the letter a [oa].[a]
+opa
+outra
+ata
+ola
+tola
+puxar
+
+##############################
+
+# Validating a phone number pattern
+# Only numbers starting with 55 will be accepted, and they must be in a valid number pattern. How could we do that?
+55(23)99200-8755
+45(23)99200-8755
+33(23)99200-8755
+
+Valid number pattern: [5][5][(]\d\d[)]\d\d\d\d\d[-]\d\d\d\d
+
+##############################
+
+# EXCEPTIONS
+# Start with any character except [^w]
+# Find numbers without the DDD prefix (55) (][^5][^5][)]
+hey encontrar
+tey encontrar
+vei encontrar
+way pular
+(55)1234-1235
+(62)1234-1235
+(47)1234-1235
+(89)1234-1235
+
+##############################
+
+# INDIVIDUAL NUMBERS IN A RANGE
+[5-9]
+123456789
+Letters between t and z = [t-z]
+abcdefghijklmnopqrstuvwxyz
+
+\w to filter all letters without special characters
+
+Filter by the number of repetitions a repeated character occurs \d{5} or \d{4,5} between
+45-8888-88888
+45-5555-88888
+
+##############################
+
+# Creating a filter for acceptable slang
+# Only the acceptable combinations are: 'zoeira', 'zueira', 'zuera'. So, only when the word starts with one of the 3 possible combinations of the first 3 letters: zoe, zue.
+[zueo]{3}
+zoeira encontrar
+zueira encontrar
+zuera encontrar
+suera pular
+
+##############################
+
+# Validating a specific number of characters
+# Let's imagine a case where a password needs to have at least 8 characters, regardless of the characters entered in the field
+.{8}
+12314567
+asdfgdfh
+*&@%$&$%
+G4D%&264
+çéç$"#$#
+
+##############################
+
+# Finding combinations that start in some way and the rest can be any combination of characters using .*
+Start with one or more letter d
+d+
+Start with dev and it doesn't matter what comes after
+dev.*
+Backwards follows the same logic
+.*evi
+
+devi encontrar
+devo encontrar
+devu encontrar
+deva encontrar
+
+##############################
+
+# Dealing with optional characters using ?
+# It allows representing zero or one of the preceding character or group.
+# If you need to find the question mark itself, it must be escaped using \?
+arquivos? baixados?
+
+"5 arquivos baixados"
+"1 arquivo baixado"
+"3 arquivos baixados"
+
+##############################
+
+# Whitespace
+# To deal with any type of whitespace (\s)
+* space
+* tab (\t)
+* newline (\n)
+* carriage return (\r)
+SUPER IMPORTANT
+* To deal with any type of whitespace (\s)
+
+##############################
+
+# Declaring start and end:
+# To create the most precise REGEX, we can use the delimiters of the start (^) and end ($) of what should be found.
+# EX: ^time to code$
+Time to code
+It's time to code
+The time to code has come
+
+#############################
+
+# Capturing groups
+# Any pattern found within these parentheses will be placed in a group that can be used later, useful for extracting phone numbers or emails, for example.
+(imagem.+\.)(jpg)
+
+imagem_s121fa.jpg
+imagem_FFDD.jpg
+relatorio_agosto.pdf
+
+For a larger group, divided into 3 subgroups
+(\w+)(@\w+\.)(com\.))
+(\w+)(@\w+\.)(com\.br|com)
+
+amanda@hotmail.com
+jeff@outlook.com
+carol@gmail.com.br
+
+##############################
+
+# Creating a REGEX to format phone numbers
+# Capturing groups
+# Any pattern found within these parentheses will be placed in a group that can be used later, useful for extracting phone numbers or emails, for example.
+([(]\d{2}[)])(\d{5})([-]\d{4})
+
+(33)99200-1885
