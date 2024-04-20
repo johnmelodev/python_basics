@@ -5,7 +5,7 @@
 
 ```sh
 git clone https://github.com/johnmelodev/python_basics.git
-
+```
 
 ## Usage
 
@@ -36,4 +36,3 @@ git clone https://github.com/johnmelodev/python_basics.git
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-```
