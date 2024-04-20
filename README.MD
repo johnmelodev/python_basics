@@ -1,11 +1,12 @@
 <h1 align="center">Welcome to python_basics 👋</h1>
-<p>
-  <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-  </a>
-</p>
+<p>🐍 This project is a collection of Python basic concepts and examples. It aims to provide a solid foundation for anyone learning or using Python.</p>
 
-> 🐍 This project is a collection of Python basic concepts and examples. It aims to provide a solid foundation for anyone learning or using Python.
+---
+
+- Status: Ongoing 🔄
+- Result: N/A
+
+---
 
 ## Install
 
@@ -27,10 +28,8 @@ loop_control_3
 managing_data_2
 modularization in Python_8
 organizing_codes(def)_4
-Author
-👤 John Melo
+Author 👤 John Melo
 
-Github: @johnmelodev
-LinkedIn: @joao-melo-dev
-Show your support
-Give a ⭐️ if this project helped you!
+Github: @johnmelodev LinkedIn: @joao-melo-dev
+
+Show your support Give a ⭐️ if this project helped you!
