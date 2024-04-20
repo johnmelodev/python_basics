@@ -1,8 +1,8 @@
-# COMO CRIAR E MODIFICAR ARQUIVOS:
-# 'w' -> Usado somente para escever algo
-# 'a' -> Usado para acrescentar algo 5
-# 'r' -> Usado somente para ler algo
-# 'r+' -> Usado para ler e escrever algo
+# HOW TO CREATE AND MODIFY FILES:
+# ‘w’ -> Used only to write something
+# ‘a’ -> Used to add something
+# ‘r’ -> Used only to read something
+# ‘r+’ -> Used to read and write something
 
 import os
 
