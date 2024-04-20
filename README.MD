@@ -1,11 +1,5 @@
 <h1 align="center">Welcome to python_basics 👋</h1>
-<p>
-  <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-  </a>
-</p>
-
-> 🐍 This project is a collection of Python basic concepts and examples. It aims to provide a solid foundation for anyone learning or using Python.
+<p>🐍 This project is a collection of Python basic concepts and examples. It aims to provide a solid foundation for anyone learning or using Python.</p>
 
 ## Install
 
