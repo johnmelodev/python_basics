@@ -1,7 +1,9 @@
-```markdown
-<h1 align="center">Welcome to python_basics 👋</h1>
-<p>🐍 This project is a collection of Python basic concepts and examples. It aims to provide a solid foundation for anyone learning or using Python.</p>
+I see what happened there. The markdown formatting got mixed up. Here's the corrected README.md for your project "python_basics":
 
+```markdown
+# Welcome to python_basics 👋
+
+🐍 This project is a collection of Python basic concepts and examples. It aims to provide a solid foundation for anyone learning or using Python.
 
 ## Install
 
@@ -28,12 +30,15 @@ git clone https://github.com/johnmelodev/python_basics.git
 - modularization in Python_8
 - organizing_codes(def)_4
 
-Author
+## Author
+
 👤 Joao Melo
 
-Github: @johnmelodev
-LinkedIn: @joao-melo-dev
+- Github: @johnmelodev
+- LinkedIn: @joao-melo-dev
 
-Show your support
+## Show your support
+
 Give a ⭐️ if this project helped you!
 ```
+This README.md is technical and explanatory, and all the information is in English as per your request. Let me know if you need any further assistance.
