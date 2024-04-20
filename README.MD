@@ -1,13 +1,17 @@
-I see what happened there. The markdown formatting got mixed up. Here's the corrected README.md for your project "python_basics":
+<h1 align="center">Welcome to python_basics 👋</h1>
+<p>
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
 
-```markdown
-# Welcome to python_basics 👋
-
-🐍 This project is a collection of Python basic concepts and examples. It aims to provide a solid foundation for anyone learning or using Python.
+> 🐍 This project is a collection of Python basic concepts and examples. It aims to provide a solid foundation for anyone learning or using Python.
 
 ## Install
 
+```sh
 git clone https://github.com/johnmelodev/python_basics.git
+
 
 ## Usage
 
@@ -39,4 +43,3 @@ git clone https://github.com/johnmelodev/python_basics.git
 
 Give a ⭐️ if this project helped you!
 ```
-This README.md is technical and explanatory, and all the information is in English as per your request. Let me know if you need any further assistance.
