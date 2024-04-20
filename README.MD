@@ -7,9 +7,7 @@ I see what happened there. The markdown formatting got mixed up. Here's the corr
 
 ## Install
 
-```sh
 git clone https://github.com/johnmelodev/python_basics.git
-```
 
 ## Usage
 
